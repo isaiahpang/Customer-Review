@@ -1,9 +1,5 @@
 import streamlit as st
 from datetime import datetime
-import sys
-import os
-
-sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
 from config import MODEL_NAME
 from database.db_manager import (
